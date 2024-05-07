@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tan"
+version = "0.3.0"
+description = "Techniques d'analyse numérique"
+readme = "README.md"
+
+
+[[project.authors]]
+name = "Christophe Prud'homme"
+email = "prudhomme@unistra.fr"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"
+
+[tool.setuptools]
+packages = ["tan", "tan.syslin", "tan.eqnonlin", "tan.ode", "tan.eig"]

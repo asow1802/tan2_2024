@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: tan
+Version: 0.3.0
+Summary: Techniques d'analyse numérique
+Author-email: Christophe Prud'homme <prudhomme@unistra.fr>
+Description-Content-Type: text/markdown
+
+# Cours TAN
+
+## Installation des paquets python requis
+
+Pour utiliser les programmes du cours et executer les notebooks jupyter
+, veuillez suivre la procédure suivante:
+
+```sh
+python3 -m venv .venv # <1>
+source .venv/bin/activate # <2>
+pip3 install -r requirements.txt # <3>
+```
+
+1. Creation d'un environnement virtuel python `.venv`
+2. Activation de l'environnement virtuel `.venv`
+3. Installation des paquets python requis
+
+## Utilisation des notebooks jupyter
+
+Sous vscode l'environnement `.venv` est détecté automatiquement une fois installé.
+Il vous suffit de sélectionner le noyau Venv et d'executer les cellules ensuite
